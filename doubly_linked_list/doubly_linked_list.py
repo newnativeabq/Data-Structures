@@ -55,6 +55,7 @@ class DoublyLinkedList:
         else:
             self.head = ListNode(value=value)
             self.tail = self.head
+            
         self.length += 1
 
     """Removes the List's current head node, making the
@@ -93,6 +94,7 @@ class DoublyLinkedList:
         else:
             self.tail = ListNode(value=value)
             self.head = self.tail
+
         self.length += 1
 
     """Removes the List's current tail node, making the 
